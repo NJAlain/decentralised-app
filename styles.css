@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #fcfcfd;
+}
+
+#about {
+    background-color: #04c0ea;
+}
+
+#projects {
+    background-color: white;
+}
+
+.footer {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.circle-image {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px; /* Centers the image horizontally */
+  }
+  
+  .circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .description {
+    font-size: 18px;
+  }
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #dynamic-text {
+    animation: slideIn 0.5s ease-in-out forwards;
+  }
+  
